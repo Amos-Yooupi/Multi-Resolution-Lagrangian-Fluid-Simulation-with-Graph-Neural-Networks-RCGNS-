@@ -16,26 +16,26 @@ Department of Civil and Environmental Engineering, The Hong Kong Polytechnic Uni
 </div>
 
 <p align="center">
-  <a href="video_generation/outputs/multiresolution_gallery.mp4">
+  <a href="assets/animations/multiresolution_gallery.gif">
     <img src="assets/animations/multiresolution_gallery.gif" width="96%" alt="RCGNS rollouts for four representative dam-break geometries at six particle spacings">
   </a>
 </p>
 
 <p align="center"><sub>
-Four representative geometries × six particle spacings, rerun for rollout frames 0–150 with the current RCGNS checkpoint. Fixed point area exposes the true density change; the shared high-contrast velocity scale is identical across all 24 panels. Click for MP4.
+Four representative geometries × six particle spacings, rerun for rollout frames 0–150 with the current RCGNS checkpoint. Fixed point area exposes the true density change; the shared high-contrast velocity scale is identical across all 24 panels.
 </sub></p>
 
 <details>
 <summary><b>Verified SPH reference comparison</b></summary>
 
 <p align="center">
-  <a href="video_generation/outputs/cross_resolution_rollout.mp4">
-    <img src="video_generation/outputs/cross_resolution_rollout.gif" width="96%" alt="Matched SPH references and RCGNS predictions at three particle spacings">
+  <a href="assets/animations/cross_resolution_rollout.gif">
+    <img src="assets/animations/cross_resolution_rollout.gif" width="96%" alt="Matched SPH references and RCGNS predictions at six particle spacings">
   </a>
 </p>
 
 <p align="center"><sub>
-Matched SPH-reference/RCGNS rollouts at <i>s</i> = 0.020, 0.026, and 0.030. The current checkpoint is used explicitly and the particle point area is fixed. Click for MP4.
+Matched SPH-reference/RCGNS rollouts at six particle spacings from <i>s</i> = 0.030 to 0.020. Columns identify resolution, rows compare SPH and RCGNS, and one shared blue-to-red velocity scale is used throughout.
 </sub></p>
 
 </details>
@@ -194,7 +194,7 @@ The coarse-to-fine experiment first pretrains at $s=0.030$ and then fine-tunes a
 
 ## Velocity-rendered rollouts
 
-All animations below were regenerated from saved RCGNS rollout tensors with one visual specification. Fluid color represents velocity magnitude, gray particles represent the internal solid boundary, and the displayed integer is the rollout frame. GIFs provide inline previews; each image links to its MP4.
+All animations below were regenerated from saved RCGNS rollout tensors with one visual specification. Fluid color represents velocity magnitude, gray particles represent the internal solid boundary, and the displayed integer is the rollout frame. Every preview and click target references a GIF in `assets/animations/`.
 
 <table>
   <tr>
@@ -202,33 +202,22 @@ All animations below were regenerated from saved RCGNS rollout tensors with one 
     <td width="50%" align="center"><b>Pinched funnel</b></td>
   </tr>
   <tr>
-    <td><a href="video_generation/outputs/arc_rollout.mp4"><img src="video_generation/outputs/arc_rollout.gif" width="100%" alt="RCGNS rollout with an arc-shaped internal boundary"></a></td>
-    <td><a href="video_generation/outputs/pinched_funnel_rollout.mp4"><img src="video_generation/outputs/pinched_funnel_rollout.gif" width="100%" alt="RCGNS rollout with a pinched-funnel internal boundary"></a></td>
-  </tr>
-  <tr>
-    <td align="center"><sub><a href="video_generation/outputs/arc_rollout.mp4">View MP4</a></sub></td>
-    <td align="center"><sub><a href="video_generation/outputs/pinched_funnel_rollout.mp4">View MP4</a></sub></td>
+    <td><a href="assets/animations/arc_rollout.gif"><img src="assets/animations/arc_rollout.gif" width="100%" alt="RCGNS rollout with an arc-shaped internal boundary"></a></td>
+    <td><a href="assets/animations/pinched_funnel_rollout.gif"><img src="assets/animations/pinched_funnel_rollout.gif" width="100%" alt="RCGNS rollout with a pinched-funnel internal boundary"></a></td>
   </tr>
   <tr>
     <td align="center"><b>Wave wall</b></td>
     <td align="center"><b>Spiral wall</b></td>
   </tr>
   <tr>
-    <td><a href="video_generation/outputs/wave_wall_rollout.mp4"><img src="video_generation/outputs/wave_wall_rollout.gif" width="100%" alt="RCGNS rollout with a wave-shaped internal boundary"></a></td>
-    <td><a href="video_generation/outputs/spiral_wall_rollout.mp4"><img src="video_generation/outputs/spiral_wall_rollout.gif" width="100%" alt="RCGNS rollout with a spiral internal boundary"></a></td>
-  </tr>
-  <tr>
-    <td align="center"><sub><a href="video_generation/outputs/wave_wall_rollout.mp4">View MP4</a></sub></td>
-    <td align="center"><sub><a href="video_generation/outputs/spiral_wall_rollout.mp4">View MP4</a></sub></td>
+    <td><a href="assets/animations/wave_wall_rollout.gif"><img src="assets/animations/wave_wall_rollout.gif" width="100%" alt="RCGNS rollout with a wave-shaped internal boundary"></a></td>
+    <td><a href="assets/animations/spiral_wall_rollout.gif"><img src="assets/animations/spiral_wall_rollout.gif" width="100%" alt="RCGNS rollout with a spiral internal boundary"></a></td>
   </tr>
   <tr>
     <td colspan="2" align="center"><b>Poly-U</b></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><a href="video_generation/outputs/poly_u_rollout.mp4"><img src="video_generation/outputs/poly_u_rollout.gif" width="74%" alt="RCGNS rollout with a POLYU letter-shaped internal boundary"></a></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><sub><a href="video_generation/outputs/poly_u_rollout.mp4">View MP4</a></sub></td>
+    <td colspan="2" align="center"><a href="assets/animations/poly_u_rollout.gif"><img src="assets/animations/poly_u_rollout.gif" width="74%" alt="RCGNS rollout with a POLYU letter-shaped internal boundary"></a></td>
   </tr>
 </table>
 
