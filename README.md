@@ -16,8 +16,8 @@ Department of Civil and Environmental Engineering, The Hong Kong Polytechnic Uni
 </div>
 
 <p align="center">
-  <a href="assets/animations/multiresolution_gallery.gif">
-    <img src="assets/animations/multiresolution_gallery.gif" width="96%" alt="RCGNS rollouts for four representative dam-break geometries at six particle spacings">
+  <a href="./assets/animations/multiresolution_gallery.gif">
+    <img src="./assets/animations/multiresolution_gallery.gif" width="96%" alt="RCGNS rollouts for four representative dam-break geometries at six particle spacings">
   </a>
 </p>
 
@@ -29,8 +29,8 @@ Four representative geometries × six particle spacings, rerun for rollout frame
 <summary><b>Verified SPH reference comparison</b></summary>
 
 <p align="center">
-  <a href="assets/animations/cross_resolution_rollout.gif">
-    <img src="assets/animations/cross_resolution_rollout.gif" width="96%" alt="Matched SPH references and RCGNS predictions at six particle spacings">
+  <a href="./assets/animations/cross_resolution_rollout.gif">
+    <img src="./assets/animations/cross_resolution_rollout.gif" width="96%" alt="Matched SPH references and RCGNS predictions at six particle spacings">
   </a>
 </p>
 
@@ -202,22 +202,22 @@ All animations below were regenerated from saved RCGNS rollout tensors with one 
     <td width="50%" align="center"><b>Pinched funnel</b></td>
   </tr>
   <tr>
-    <td><a href="assets/animations/arc_rollout.gif"><img src="assets/animations/arc_rollout.gif" width="100%" alt="RCGNS rollout with an arc-shaped internal boundary"></a></td>
-    <td><a href="assets/animations/pinched_funnel_rollout.gif"><img src="assets/animations/pinched_funnel_rollout.gif" width="100%" alt="RCGNS rollout with a pinched-funnel internal boundary"></a></td>
+    <td><a href="./assets/animations/arc_rollout.gif"><img src="./assets/animations/arc_rollout.gif" width="100%" alt="RCGNS rollout with an arc-shaped internal boundary"></a></td>
+    <td><a href="./assets/animations/pinched_funnel_rollout.gif"><img src="./assets/animations/pinched_funnel_rollout.gif" width="100%" alt="RCGNS rollout with a pinched-funnel internal boundary"></a></td>
   </tr>
   <tr>
     <td align="center"><b>Wave wall</b></td>
     <td align="center"><b>Spiral wall</b></td>
   </tr>
   <tr>
-    <td><a href="assets/animations/wave_wall_rollout.gif"><img src="assets/animations/wave_wall_rollout.gif" width="100%" alt="RCGNS rollout with a wave-shaped internal boundary"></a></td>
-    <td><a href="assets/animations/spiral_wall_rollout.gif"><img src="assets/animations/spiral_wall_rollout.gif" width="100%" alt="RCGNS rollout with a spiral internal boundary"></a></td>
+    <td><a href="./assets/animations/wave_wall_rollout.gif"><img src="./assets/animations/wave_wall_rollout.gif" width="100%" alt="RCGNS rollout with a wave-shaped internal boundary"></a></td>
+    <td><a href="./assets/animations/spiral_wall_rollout.gif"><img src="./assets/animations/spiral_wall_rollout.gif" width="100%" alt="RCGNS rollout with a spiral internal boundary"></a></td>
   </tr>
   <tr>
     <td colspan="2" align="center"><b>Poly-U</b></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><a href="assets/animations/poly_u_rollout.gif"><img src="assets/animations/poly_u_rollout.gif" width="74%" alt="RCGNS rollout with a POLYU letter-shaped internal boundary"></a></td>
+    <td colspan="2" align="center"><a href="./assets/animations/poly_u_rollout.gif"><img src="./assets/animations/poly_u_rollout.gif" width="74%" alt="RCGNS rollout with a POLYU letter-shaped internal boundary"></a></td>
   </tr>
 </table>
 
