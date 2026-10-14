@@ -17,12 +17,12 @@ Department of Civil and Environmental Engineering, The Hong Kong Polytechnic Uni
 
 <p align="center">
   <a href="video_generation/outputs/multiresolution_gallery.mp4">
-    <img src="video_generation/outputs/multiresolution_gallery.gif" width="96%" alt="RCGNS rollouts for three representative dam-break geometries at six particle spacings">
+    <img src="assets/animations/multiresolution_gallery.gif" width="96%" alt="RCGNS rollouts for four representative dam-break geometries at six particle spacings">
   </a>
 </p>
 
 <p align="center"><sub>
-Three representative geometries × six particle spacings, rerun for rollout frames 0–150 with the current RCGNS checkpoint. Fixed point area exposes the true density change; the shared high-contrast velocity scale is identical across all 18 panels. Click for MP4.
+Four representative geometries × six particle spacings, rerun for rollout frames 0–150 with the current RCGNS checkpoint. Fixed point area exposes the true density change; the shared high-contrast velocity scale is identical across all 24 panels. Click for MP4.
 </sub></p>
 
 <details>
